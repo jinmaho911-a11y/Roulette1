@@ -224,6 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65f8c873a49f594999638a464fd5a4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RouletteController
+  rotSpeed: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class RouletteController : MonoBehaviour
 {
-    float rotSpeed = 0; // 회전 속도 변수
+    public float rotSpeed = 0; // 회전 속도 변수
     bool isRotating = false; // 회전 중인지 여부를 나타내는 변수
     Quaternion m_LocalRotation; // 로컬 회전 변수
     void Start()
