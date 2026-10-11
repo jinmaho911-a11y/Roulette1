@@ -44,6 +44,10 @@ public class RouletteController : MonoBehaviour
         {
             rotSpeed *= 0.99f;
         }
+        if (rotSpeed == 0f)
+        {
+            isRotating = false;
+        }
 
         // 회전 속도를 점점 줄여서 멈추게 한다
 
